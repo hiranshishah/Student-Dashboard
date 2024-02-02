@@ -1,0 +1,18 @@
+<!-- eslint-disable @angular-eslint/template/label-has-associated-control -->
+<form (ngSubmit)="onSubmit()">
+  
+    <label>Name:</label>
+  <input type="text" name="name" [(ngModel)]="student.name" required>
+    
+    <label>Image URL:</label>
+    <input type="text" name="image" [(ngModel)]="student.image" required>
+
+    <label>Phone No.:</label>
+     <input type="number" name="phone" [(ngModel)]="student.phone" required>
+
+     <label>CGPA:</label>
+     <input type="number" name="cgpa" [(ngModel)]="student.cgpa" required>
+  
+    
+    <button type="submit">Submit</button>
+  </form>

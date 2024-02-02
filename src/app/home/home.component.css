@@ -1,0 +1,63 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    align-self: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    
+  }
+   
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-top: 5%;
+  }
+   
+  th {
+    background-color: rgb(249, 171, 171);
+    color: white;
+    
+  }
+   
+  tr:nth-child(even) {
+    background-color: #eaf8f1;
+  }
+  tr:nth-child(odd) {
+    background-color: #c3f7dd;
+  }
+   
+  tr:hover {
+    background-color: #f5a2a2;
+  }
+   
+  button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1b4543;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+  }
+   
+  button:hover {
+    background-color: #069006;
+  }
+  .header{
+    text-align: center;
+    background-color: #c7735e;
+    color: white;
+    height: 70px;
+    font-display: flex;
+    
+  }
+  /* .image{
+    background-image:url( "https://images.pexels.com/photos/1850021/pexels-photo-1850021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(1000px);
+    background-position: 20%;
+  }
+  */
